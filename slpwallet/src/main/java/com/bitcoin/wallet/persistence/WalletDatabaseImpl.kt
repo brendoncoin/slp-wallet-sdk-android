@@ -9,6 +9,7 @@ import com.bitcoin.wallet.slp.*
 import com.bitcoin.wallet.tx.Utxo
 import com.bitcoin.wallet.tx.UtxoDao
 import com.bitcoin.wallet.util.SingletonHolder
+import io.reactivex.schedulers.Schedulers
 import timber.log.Timber
 import java.util.concurrent.atomic.AtomicBoolean
 
@@ -27,11 +28,11 @@ internal abstract class WalletDatabaseImpl : RoomDatabase(), WalletDatabase {
     override fun newWalletClear() {
         initialized.set(false)
         val start = System.currentTimeMillis()
-        Thread {
-            newWalletClear()
+        Schedulers.io().scheduleDirect {
+            clearAllTables()
             Timber.d("Cleared all database tables in ${System.currentTimeMillis() - start} ms")
             initialized.set(true)
-        }.start()
+        }
     }
 
     override fun awaitReady(): Boolean {
