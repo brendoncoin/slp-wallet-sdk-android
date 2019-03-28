@@ -1,4 +1,4 @@
-package com.bitcoin.wallet.rest
+package com.bitcoin.slpwallet.rest
 
 import io.reactivex.Single
 import retrofit2.http.Body

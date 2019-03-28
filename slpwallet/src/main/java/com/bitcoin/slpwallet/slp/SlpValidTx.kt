@@ -1,4 +1,4 @@
-package com.bitcoin.wallet.slp
+package com.bitcoin.slpwallet.slp
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

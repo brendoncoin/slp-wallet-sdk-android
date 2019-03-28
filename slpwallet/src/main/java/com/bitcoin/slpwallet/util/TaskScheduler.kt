@@ -1,4 +1,4 @@
-package com.bitcoin.wallet.util
+package com.bitcoin.slpwallet.util
 
 /*
  * Copyright 2018 Google LLC

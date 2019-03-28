@@ -1,7 +1,7 @@
-package com.bitcoin.wallet.slp
+package com.bitcoin.slpwallet.slp
 
-import com.bitcoin.wallet.encoding.ByteUtils
-import com.bitcoin.wallet.tx.Script
+import com.bitcoin.slpwallet.encoding.ByteUtils
+import com.bitcoin.slpwallet.tx.Script
 import java.util.*
 
 /**

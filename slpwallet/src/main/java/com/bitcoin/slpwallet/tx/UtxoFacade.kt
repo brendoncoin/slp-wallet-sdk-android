@@ -1,7 +1,7 @@
-package com.bitcoin.wallet.tx
+package com.bitcoin.slpwallet.tx
 
-import com.bitcoin.wallet.rest.*
-import com.bitcoin.wallet.slp.*
+import com.bitcoin.slpwallet.rest.*
+import com.bitcoin.slpwallet.slp.*
 import org.bitcoinj.core.Coin
 import timber.log.Timber
 import java.math.BigDecimal

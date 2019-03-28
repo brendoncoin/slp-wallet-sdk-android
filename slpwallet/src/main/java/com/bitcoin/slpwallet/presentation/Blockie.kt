@@ -1,4 +1,4 @@
-package com.bitcoin.wallet.presentation
+package com.bitcoin.slpwallet.presentation
 
 /**
  * Because of bug in Badger Wallet expecting the token ID to be an address prefixed with "bitcoincash:"

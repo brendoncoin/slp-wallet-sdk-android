@@ -1,4 +1,4 @@
-package com.bitcoin.wallet.persistence
+package com.bitcoin.slpwallet.persistence
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

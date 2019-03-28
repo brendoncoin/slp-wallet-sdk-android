@@ -1,4 +1,4 @@
-package com.bitcoin.wallet.tx
+package com.bitcoin.slpwallet.tx
 
 /**
  * @author akibabu

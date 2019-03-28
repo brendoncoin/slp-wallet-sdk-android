@@ -1,6 +1,6 @@
-package com.bitcoin.wallet.slp
+package com.bitcoin.slpwallet.slp
 
-import com.bitcoin.wallet.encoding.ByteUtils
+import com.bitcoin.slpwallet.encoding.ByteUtils
 
 /**
  * 1 to 2 byte integer

@@ -1,4 +1,4 @@
-package com.bitcoin.wallet.rest
+package com.bitcoin.slpwallet.rest
 
 /**
  * https://rest.bitcoin.com/#/address/utxoBulk

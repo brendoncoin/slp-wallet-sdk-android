@@ -1,7 +1,7 @@
-package com.bitcoin.wallet.persistence
+package com.bitcoin.slpwallet.persistence
 
 import androidx.room.TypeConverter
-import com.bitcoin.wallet.slp.SlpTokenId
+import com.bitcoin.slpwallet.slp.SlpTokenId
 import java.math.BigDecimal
 
 class TypeConverters {

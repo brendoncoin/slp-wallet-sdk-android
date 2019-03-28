@@ -1,11 +1,11 @@
-package com.bitcoin.wallet
+package com.bitcoin.slpwallet
 
-import com.bitcoin.wallet.rest.BitcoinRestClientMock
-import com.bitcoin.wallet.rest.BitcoinRestClientMockAarAngBch
-import com.bitcoin.wallet.rest.BitcoinRestClientMockAarBch
-import com.bitcoin.wallet.slp.SlpTokenDetails
-import com.bitcoin.wallet.slp.SlpTokenId
-import com.bitcoin.wallet.tx.TxBuilder
+import com.bitcoin.slpwallet.rest.BitcoinRestClientMock
+import com.bitcoin.slpwallet.rest.BitcoinRestClientMockAarAngBch
+import com.bitcoin.slpwallet.rest.BitcoinRestClientMockAarBch
+import com.bitcoin.slpwallet.slp.SlpTokenDetails
+import com.bitcoin.slpwallet.slp.SlpTokenId
+import com.bitcoin.slpwallet.tx.TxBuilder
 import org.junit.Assert
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue

@@ -1,4 +1,4 @@
-package com.bitcoin.wallet.slp
+package com.bitcoin.slpwallet.slp
 
 /**
  * Minimum 4 bytes ASCII

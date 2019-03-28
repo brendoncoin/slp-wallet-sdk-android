@@ -1,6 +1,6 @@
-package com.bitcoin.wallet
+package com.bitcoin.slpwallet
 
-import com.bitcoin.wallet.bitcoinj.NetworkInstance
+import com.bitcoin.slpwallet.bitcoinj.NetworkInstance
 
 /**
  * @author akibabu

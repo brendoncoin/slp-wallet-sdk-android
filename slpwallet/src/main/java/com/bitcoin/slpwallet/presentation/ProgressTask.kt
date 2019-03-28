@@ -1,4 +1,4 @@
-package com.bitcoin.wallet.presentation
+package com.bitcoin.slpwallet.presentation
 
 enum class TaskStatus {
     IDLE,

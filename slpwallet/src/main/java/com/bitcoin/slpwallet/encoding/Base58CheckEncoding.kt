@@ -1,4 +1,4 @@
-package com.bitcoin.wallet.encoding
+package com.bitcoin.slpwallet.encoding
 
 /**
  * https://github.com/bitcoinbook/bitcoinbook/blob/develop/images/mbc2_0406.png

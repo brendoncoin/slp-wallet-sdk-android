@@ -1,7 +1,7 @@
-package com.bitcoin.wallet.slp
+package com.bitcoin.slpwallet.slp
 
-import com.bitcoin.wallet.encoding.ByteUtils
-import com.bitcoin.wallet.slp.SlpOpReturn.BatonAndMint
+import com.bitcoin.slpwallet.encoding.ByteUtils
+import com.bitcoin.slpwallet.slp.SlpOpReturn.BatonAndMint
 
 /**
  * Except for containing token details a GENESIS transaction works exactly like MINT

@@ -1,4 +1,4 @@
-package com.bitcoin.wallet.rest
+package com.bitcoin.slpwallet.rest
 
 /**
  * https://rest.bitcoin.com/v2/address/utxo/bitcoincash:qzs02v05l7qs5s24srqju498qu55dwuj0cx5ehjm2c

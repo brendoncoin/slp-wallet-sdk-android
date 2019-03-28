@@ -1,6 +1,6 @@
-package com.bitcoin.wallet.rest
+package com.bitcoin.slpwallet.rest
 
-import com.bitcoin.wallet.address.AddressCash
+import com.bitcoin.slpwallet.address.AddressCash
 
 /**
  * https://rest.bitcoin.com/v2/transaction/details

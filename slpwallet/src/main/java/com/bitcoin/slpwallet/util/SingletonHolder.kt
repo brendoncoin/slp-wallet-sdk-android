@@ -1,4 +1,4 @@
-package com.bitcoin.wallet.util
+package com.bitcoin.slpwallet.util
 
 open class SingletonHolder<out T, in A>(creator: (A) -> T) {
     private var creator: ((A) -> T)? = creator

@@ -1,8 +1,8 @@
-package com.bitcoin.wallet.bitcoinj
+package com.bitcoin.slpwallet.bitcoinj
 
-import com.bitcoin.wallet.Network
-import com.bitcoin.wallet.address.Address
-import com.bitcoin.wallet.address.KeyAddressPair
+import com.bitcoin.slpwallet.Network
+import com.bitcoin.slpwallet.address.Address
+import com.bitcoin.slpwallet.address.KeyAddressPair
 import org.bitcoinj.crypto.ChildNumber
 import org.bitcoinj.crypto.HDKeyDerivation
 import org.bitcoinj.crypto.MnemonicCode

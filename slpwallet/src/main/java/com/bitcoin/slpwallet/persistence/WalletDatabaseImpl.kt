@@ -1,21 +1,21 @@
-package com.bitcoin.wallet.persistence
+package com.bitcoin.slpwallet.persistence
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import com.bitcoin.wallet.slp.*
-import com.bitcoin.wallet.tx.Utxo
-import com.bitcoin.wallet.tx.UtxoDao
-import com.bitcoin.wallet.util.SingletonHolder
+import com.bitcoin.slpwallet.slp.*
+import com.bitcoin.slpwallet.tx.Utxo
+import com.bitcoin.slpwallet.tx.UtxoDao
+import com.bitcoin.slpwallet.util.SingletonHolder
 import io.reactivex.schedulers.Schedulers
 import timber.log.Timber
 import java.util.concurrent.atomic.AtomicBoolean
 
 @Database(entities = [SlpTokenBalance::class, Utxo::class, SlpUtxo::class, SlpTokenDetails::class, SlpValidTx::class],
     version = 5)
-@TypeConverters(com.bitcoin.wallet.persistence.TypeConverters::class)
+@TypeConverters(com.bitcoin.slpwallet.persistence.TypeConverters::class)
 internal abstract class WalletDatabaseImpl : RoomDatabase(), WalletDatabase {
 
     private var initialized = AtomicBoolean(true)

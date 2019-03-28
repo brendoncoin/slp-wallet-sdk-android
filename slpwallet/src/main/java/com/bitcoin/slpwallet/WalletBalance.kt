@@ -1,6 +1,6 @@
-package com.bitcoin.wallet
+package com.bitcoin.slpwallet
 
-import com.bitcoin.wallet.slp.SlpTokenDetails
+import com.bitcoin.slpwallet.slp.SlpTokenDetails
 import java.math.BigDecimal
 
 /**

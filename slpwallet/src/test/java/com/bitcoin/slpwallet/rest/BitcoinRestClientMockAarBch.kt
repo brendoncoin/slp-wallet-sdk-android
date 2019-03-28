@@ -1,9 +1,9 @@
-package com.bitcoin.wallet.rest
+package com.bitcoin.slpwallet.rest
 
-import com.bitcoin.wallet.Network
-import com.bitcoin.wallet.WalletDatabaseInMemory
-import com.bitcoin.wallet.bitcoinj.Mnemonic
-import com.bitcoin.wallet.slp.SLPWalletImpl
+import com.bitcoin.slpwallet.Network
+import com.bitcoin.slpwallet.WalletDatabaseInMemory
+import com.bitcoin.slpwallet.bitcoinj.Mnemonic
+import com.bitcoin.slpwallet.slp.SLPWalletImpl
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import io.reactivex.Single

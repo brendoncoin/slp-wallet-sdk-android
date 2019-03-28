@@ -1,6 +1,6 @@
-package com.bitcoin.wallet.presentation
+package com.bitcoin.slpwallet.presentation
 
-import com.bitcoin.wallet.persistence.SlpTokenBalance
+import com.bitcoin.slpwallet.persistence.SlpTokenBalance
 import java.math.BigDecimal
 
 data class BalanceInfoImpl(

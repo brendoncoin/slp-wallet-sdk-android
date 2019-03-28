@@ -1,6 +1,6 @@
-package com.bitcoin.wallet.address
+package com.bitcoin.slpwallet.address
 
-import com.bitcoin.wallet.Network
+import com.bitcoin.slpwallet.Network
 
 /**
  * @author akibabu

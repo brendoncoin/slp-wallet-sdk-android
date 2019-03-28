@@ -1,4 +1,4 @@
-package com.bitcoin.wallet.slp
+package com.bitcoin.slpwallet.slp
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

@@ -1,15 +1,15 @@
-package com.bitcoin.wallet.slp
+package com.bitcoin.slpwallet.slp
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Transformations
-import com.bitcoin.wallet.*
-import com.bitcoin.wallet.bitcoinj.Mnemonic
-import com.bitcoin.wallet.persistence.SlpTokenBalance
-import com.bitcoin.wallet.persistence.WalletDatabase
-import com.bitcoin.wallet.presentation.BalanceInfo
-import com.bitcoin.wallet.presentation.BalanceInfoImpl
-import com.bitcoin.wallet.presentation.ProgressTask
+import com.bitcoin.slpwallet.*
+import com.bitcoin.slpwallet.bitcoinj.Mnemonic
+import com.bitcoin.slpwallet.persistence.SlpTokenBalance
+import com.bitcoin.slpwallet.persistence.WalletDatabase
+import com.bitcoin.slpwallet.presentation.BalanceInfo
+import com.bitcoin.slpwallet.presentation.BalanceInfoImpl
+import com.bitcoin.slpwallet.presentation.ProgressTask
 import io.reactivex.Single
 import io.reactivex.schedulers.Schedulers
 import timber.log.Timber

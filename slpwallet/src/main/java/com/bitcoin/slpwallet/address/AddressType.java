@@ -1,4 +1,4 @@
-package com.bitcoin.wallet.address;
+package com.bitcoin.slpwallet.address;
 
 /**
  * @author akibabu

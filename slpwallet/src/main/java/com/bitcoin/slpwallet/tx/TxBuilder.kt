@@ -1,9 +1,9 @@
-package com.bitcoin.wallet.tx
+package com.bitcoin.slpwallet.tx
 
-import com.bitcoin.wallet.address.Address
-import com.bitcoin.wallet.encoding.ByteUtils
-import com.bitcoin.wallet.slp.SLPWalletImpl
-import com.bitcoin.wallet.slp.SlpOpReturnSend
+import com.bitcoin.slpwallet.address.Address
+import com.bitcoin.slpwallet.encoding.ByteUtils
+import com.bitcoin.slpwallet.slp.SLPWalletImpl
+import com.bitcoin.slpwallet.slp.SlpOpReturnSend
 import org.bitcoinj.core.*
 import org.bitcoinj.core.Transaction.SigHash
 import org.bitcoinj.script.Script

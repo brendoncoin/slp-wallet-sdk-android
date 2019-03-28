@@ -1,6 +1,6 @@
-package com.bitcoin.wallet.slp
+package com.bitcoin.slpwallet.slp
 
-import com.bitcoin.wallet.encoding.ByteUtils
+import com.bitcoin.slpwallet.encoding.ByteUtils
 import org.junit.Assert.*
 import org.junit.Test
 import java.math.BigDecimal

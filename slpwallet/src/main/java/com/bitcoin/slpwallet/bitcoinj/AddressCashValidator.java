@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.bitcoin.wallet.bitcoinj;
+package com.bitcoin.slpwallet.bitcoinj;
 
-import com.bitcoin.wallet.address.AddressFormatException;
+import com.bitcoin.slpwallet.address.AddressFormatException;
 
 /**
  * From BitcoinJ

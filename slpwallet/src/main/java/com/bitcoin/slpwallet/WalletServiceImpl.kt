@@ -1,12 +1,12 @@
-package com.bitcoin.wallet
+package com.bitcoin.slpwallet
 
-import com.bitcoin.wallet.address.AddressSLP
-import com.bitcoin.wallet.persistence.WalletDatabase
-import com.bitcoin.wallet.rest.BitcoinRestClient
-import com.bitcoin.wallet.slp.*
-import com.bitcoin.wallet.tx.TxBuilder
-import com.bitcoin.wallet.tx.Utxo
-import com.bitcoin.wallet.tx.UtxoFacade
+import com.bitcoin.slpwallet.address.AddressSLP
+import com.bitcoin.slpwallet.persistence.WalletDatabase
+import com.bitcoin.slpwallet.rest.BitcoinRestClient
+import com.bitcoin.slpwallet.slp.*
+import com.bitcoin.slpwallet.tx.TxBuilder
+import com.bitcoin.slpwallet.tx.Utxo
+import com.bitcoin.slpwallet.tx.UtxoFacade
 import com.google.gson.JsonParser
 import io.reactivex.Single
 import timber.log.Timber

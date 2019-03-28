@@ -1,8 +1,8 @@
-package com.bitcoin.wallet.address
+package com.bitcoin.slpwallet.address
 
 
-import com.bitcoin.wallet.Network
-import com.bitcoin.wallet.encoding.Base58CheckEncoding
+import com.bitcoin.slpwallet.Network
+import com.bitcoin.slpwallet.encoding.Base58CheckEncoding
 
 /**
  * @author akibabu

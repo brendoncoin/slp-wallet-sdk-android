@@ -1,4 +1,4 @@
-package com.bitcoin.wallet.persistence
+package com.bitcoin.slpwallet.persistence
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao

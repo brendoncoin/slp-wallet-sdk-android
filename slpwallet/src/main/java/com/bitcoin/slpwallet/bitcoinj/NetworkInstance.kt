@@ -1,6 +1,6 @@
-package com.bitcoin.wallet.bitcoinj
+package com.bitcoin.slpwallet.bitcoinj
 
-import com.bitcoin.wallet.Network
+import com.bitcoin.slpwallet.Network
 import org.bitcoinj.core.NetworkParameters
 import org.bitcoinj.params.MainNetParams
 import org.bitcoinj.params.TestNet3Params

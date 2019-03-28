@@ -1,13 +1,13 @@
-package com.bitcoin.wallet
+package com.bitcoin.slpwallet
 
 import android.content.Context
 import androidx.lifecycle.LiveData
 import com.bitcoin.securepreferences.SecurePreferences
-import com.bitcoin.wallet.bitcoinj.Mnemonic
-import com.bitcoin.wallet.persistence.WalletDatabaseImpl
-import com.bitcoin.wallet.presentation.BalanceInfo
-import com.bitcoin.wallet.presentation.ProgressTask
-import com.bitcoin.wallet.slp.SLPWalletImpl
+import com.bitcoin.slpwallet.bitcoinj.Mnemonic
+import com.bitcoin.slpwallet.persistence.WalletDatabaseImpl
+import com.bitcoin.slpwallet.presentation.BalanceInfo
+import com.bitcoin.slpwallet.presentation.ProgressTask
+import com.bitcoin.slpwallet.slp.SLPWalletImpl
 import io.reactivex.Single
 import timber.log.Timber
 import java.math.BigDecimal

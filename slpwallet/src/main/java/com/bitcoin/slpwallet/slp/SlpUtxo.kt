@@ -1,9 +1,9 @@
-package com.bitcoin.wallet.slp
+package com.bitcoin.slpwallet.slp
 
 import androidx.room.ColumnInfo
 import androidx.room.Embedded
 import androidx.room.Entity
-import com.bitcoin.wallet.tx.Utxo
+import com.bitcoin.slpwallet.tx.Utxo
 import java.math.BigDecimal
 
 /**

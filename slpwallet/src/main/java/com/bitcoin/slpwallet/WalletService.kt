@@ -1,6 +1,6 @@
-package com.bitcoin.wallet
+package com.bitcoin.slpwallet
 
-import com.bitcoin.wallet.slp.SlpTokenId
+import com.bitcoin.slpwallet.slp.SlpTokenId
 import io.reactivex.Single
 import java.math.BigDecimal
 

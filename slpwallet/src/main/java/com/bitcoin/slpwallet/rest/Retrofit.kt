@@ -1,6 +1,6 @@
-package com.bitcoin.wallet.rest
+package com.bitcoin.slpwallet.rest
 
-import com.bitcoin.wallet.SLPWalletConfig
+import com.bitcoin.slpwallet.SLPWalletConfig
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory

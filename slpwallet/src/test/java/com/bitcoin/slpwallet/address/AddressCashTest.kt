@@ -1,6 +1,6 @@
-package com.bitcoin.wallet.address
+package com.bitcoin.slpwallet.address
 
-import com.bitcoin.wallet.Network
+import com.bitcoin.slpwallet.Network
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Test

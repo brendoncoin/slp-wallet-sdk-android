@@ -1,4 +1,4 @@
-package com.bitcoin.wallet.encoding
+package com.bitcoin.slpwallet.encoding
 
 import org.spongycastle.util.encoders.DecoderException
 import java.nio.ByteBuffer

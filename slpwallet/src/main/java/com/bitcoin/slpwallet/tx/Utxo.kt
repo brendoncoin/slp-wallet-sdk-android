@@ -1,8 +1,8 @@
-package com.bitcoin.wallet.tx
+package com.bitcoin.slpwallet.tx
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
-import com.bitcoin.wallet.encoding.ByteUtils
+import com.bitcoin.slpwallet.encoding.ByteUtils
 
 /**
  * @author akibabu

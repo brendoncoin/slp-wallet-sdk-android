@@ -1,8 +1,8 @@
-package com.bitcoin.wallet.tx
+package com.bitcoin.slpwallet.tx
 
 import androidx.room.Dao
 import androidx.room.Query
-import com.bitcoin.wallet.persistence.DaoBase
+import com.bitcoin.slpwallet.persistence.DaoBase
 
 /**
  * @author akibabu

@@ -1,14 +1,14 @@
-package com.bitcoin.wallet
+package com.bitcoin.slpwallet
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.bitcoin.wallet.persistence.DaoBase
-import com.bitcoin.wallet.persistence.SlpTokenBalance
-import com.bitcoin.wallet.persistence.SlpTokenBalanceDao
-import com.bitcoin.wallet.persistence.WalletDatabase
-import com.bitcoin.wallet.slp.*
-import com.bitcoin.wallet.tx.Utxo
-import com.bitcoin.wallet.tx.UtxoDao
+import com.bitcoin.slpwallet.persistence.DaoBase
+import com.bitcoin.slpwallet.persistence.SlpTokenBalance
+import com.bitcoin.slpwallet.persistence.SlpTokenBalanceDao
+import com.bitcoin.slpwallet.persistence.WalletDatabase
+import com.bitcoin.slpwallet.slp.*
+import com.bitcoin.slpwallet.tx.Utxo
+import com.bitcoin.slpwallet.tx.UtxoDao
 import java.util.concurrent.ConcurrentHashMap
 
 /**

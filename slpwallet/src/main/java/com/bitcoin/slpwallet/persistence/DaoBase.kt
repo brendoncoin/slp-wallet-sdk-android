@@ -1,4 +1,4 @@
-package com.bitcoin.wallet.persistence
+package com.bitcoin.slpwallet.persistence
 
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy

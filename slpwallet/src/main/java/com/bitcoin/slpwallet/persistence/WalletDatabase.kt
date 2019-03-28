@@ -1,9 +1,9 @@
-package com.bitcoin.wallet.persistence
+package com.bitcoin.slpwallet.persistence
 
-import com.bitcoin.wallet.slp.SlpTokenDetailsDao
-import com.bitcoin.wallet.slp.SlpUtxoDao
-import com.bitcoin.wallet.slp.SlpValidTxDao
-import com.bitcoin.wallet.tx.UtxoDao
+import com.bitcoin.slpwallet.slp.SlpTokenDetailsDao
+import com.bitcoin.slpwallet.slp.SlpUtxoDao
+import com.bitcoin.slpwallet.slp.SlpValidTxDao
+import com.bitcoin.slpwallet.tx.UtxoDao
 
 /**
  * @author akibabu

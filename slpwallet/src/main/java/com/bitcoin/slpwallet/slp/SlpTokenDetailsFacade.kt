@@ -1,7 +1,7 @@
-package com.bitcoin.wallet.slp
+package com.bitcoin.slpwallet.slp
 
-import com.bitcoin.wallet.rest.BitcoinRestClient
-import com.bitcoin.wallet.rest.TxDetailsRequest
+import com.bitcoin.slpwallet.rest.BitcoinRestClient
+import com.bitcoin.slpwallet.rest.TxDetailsRequest
 import io.reactivex.Flowable
 import io.reactivex.Single
 import timber.log.Timber

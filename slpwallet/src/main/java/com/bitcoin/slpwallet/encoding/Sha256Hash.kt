@@ -1,4 +1,4 @@
-package com.bitcoin.wallet.encoding
+package com.bitcoin.slpwallet.encoding
 
 import java.security.MessageDigest
 import java.security.NoSuchAlgorithmException
